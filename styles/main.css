@@ -1,0 +1,100 @@
+h6, h5, h4, h3, h2, h1 {
+    font-family: "Calvino", sans-serif;
+    font-weight: 700;
+    color: #BF4597;
+}
+p {
+    font-weight: 700;
+    color: #A0A0A0;
+}
+.violet {
+    color: #BF4597;
+    font-weight: 800;
+}
+.umida-main {
+    width: 500px;
+}
+.main-content {
+    width: 500px;
+}
+.lenta {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin-top: -400px;
+    z-index: -1;
+}
+.lenta2 {
+    height: 200px;
+    margin-top: -100px;
+}
+
+form input, form textarea {
+    width: 230px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 2px solid #E2E2E2;
+    height: 36px;
+    padding: 10px;
+}
+
+form input:focus, form textarea:focus {
+    outline: none !important;
+    border: 2px solid #BF4597 !important;
+}
+
+form #comment {
+    height: 100px;
+}
+
+form button {
+    border-radius: 20px;
+    padding: 8px 24px;
+    border: none;
+    background-color: #BF4597;
+    color: #fff;
+    font-weight: bold;
+}
+
+footer img {
+    margin: 10px;
+}
+
+@media (max-width: 992px) {
+    .lenta {
+        height: 200px;
+        margin-top: -100px;
+    }
+    .lenta2 {
+        height: 100px;
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 540px) {
+    nav button {
+        font-size: 12px !important;
+    }
+    nav .navbar-brand {
+        width: 150px;
+    }
+    body {
+        padding: 0 20px;
+    }
+    .lenta {
+        height: 100px;
+        margin-top: -30px;
+    }
+    .lenta2 {
+        height: 50px;
+        margin-top: 0px;
+    }
+    img {
+        max-width: 100%;
+    }
+
+    form input {
+        border-radius: 10px;
+        width: 100%;
+    }
+}
