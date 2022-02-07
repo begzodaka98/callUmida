@@ -1,22 +1,39 @@
-h6, h5, h4, h3, h2, h1 {
-    font-family: "Calvino", sans-serif;
+h6,
+h5,
+h4,
+h3,
+h2,
+h1 {
     font-weight: 700;
     color: #BF4597;
 }
-p {
-    font-weight: 700;
+
+p,
+ol {
     color: #A0A0A0;
 }
+
+section li {
+    margin-bottom: 20px;
+}
+
+.logo {
+    height: 90px;
+}
+
 .violet {
     color: #BF4597;
-    font-weight: 800;
+    font-weight: 700;
 }
+
 .umida-main {
-    width: 500px;
+    width: 400px;
 }
+
 .main-content {
-    width: 500px;
+    width: 600px;
 }
+
 .lenta {
     position: relative;
     width: 100%;
@@ -24,12 +41,14 @@ p {
     margin-top: -400px;
     z-index: -1;
 }
+
 .lenta2 {
     height: 200px;
     margin-top: -100px;
 }
 
-form input, form textarea {
+form input,
+form textarea {
     width: 230px;
     margin: 10px;
     border-radius: 20px;
@@ -38,7 +57,17 @@ form input, form textarea {
     padding: 10px;
 }
 
-form input:focus, form textarea:focus {
+.undp-logo {
+    width: 80px
+}
+
+.display-6 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+form input:focus,
+form textarea:focus {
     outline: none !important;
     border: 2px solid #BF4597 !important;
 }
@@ -47,7 +76,7 @@ form #comment {
     height: 100px;
 }
 
-form button {
+button[type="submit"] {
     border-radius: 20px;
     padding: 8px 24px;
     border: none;
@@ -60,11 +89,20 @@ footer img {
     margin: 10px;
 }
 
+.logos>img {
+    height: 40px;
+}
+
+.map>ymaps {
+    width: 100% !important;
+}
+
 @media (max-width: 992px) {
     .lenta {
         height: 200px;
         margin-top: -100px;
     }
+
     .lenta2 {
         height: 100px;
         margin-top: 0px;
@@ -75,20 +113,25 @@ footer img {
     nav button {
         font-size: 12px !important;
     }
+
     nav .navbar-brand {
         width: 150px;
     }
+
     body {
         padding: 0 20px;
     }
+
     .lenta {
         height: 100px;
         margin-top: -30px;
     }
+
     .lenta2 {
         height: 50px;
         margin-top: 0px;
     }
+
     img {
         max-width: 100%;
     }
