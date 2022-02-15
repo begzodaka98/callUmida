@@ -9,7 +9,8 @@ h1 {
 }
 
 p,
-ol {
+ol,
+ul {
     color: #A0A0A0;
 }
 
@@ -97,6 +98,10 @@ footer img {
     width: 100% !important;
 }
 
+.footer-descr {
+    font-size: 13px;
+}
+
 @media (max-width: 992px) {
     .lenta {
         height: 200px;
@@ -112,6 +117,10 @@ footer img {
 @media (max-width: 540px) {
     nav button {
         font-size: 12px !important;
+    }
+
+    nav .navbar-brand img {
+        height: auto !important;
     }
 
     nav .navbar-brand {
