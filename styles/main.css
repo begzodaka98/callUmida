@@ -94,6 +94,14 @@ footer img {
     height: 40px;
 }
 
+.logos>img.bigger {
+    height: 100px;
+}
+
+.logos>img.korzinka {
+    height: 100px;
+}
+
 .map>ymaps {
     width: 100% !important;
 }
